@@ -1,0 +1,46 @@
+.container {
+	max-width: 900px;
+}
+.logo {
+  position: absolute;
+  font-size: 50px;
+  opacity: 0;
+  right: 0;
+  top: 0;
+}
+label{
+	font-weight: bold;
+}
+.page-header {
+
+    background-color: #008000;
+
+    margin-top: 0;
+
+    padding: 20px 20px 20px 40px;
+
+}
+.page-header h1 {
+
+    color: #ffffff;
+
+    font-size: 36pt;
+
+    text-decoration: none;
+
+}
+h2, h3, h4 {
+
+    font-family: 'Lobster';
+	font-weight: bold;
+	text-align:center;
+	
+
+}
+h5{
+	text-align:center;
+	 font-family: 'Lobster';
+}
+p{
+	text-align:left;
+}

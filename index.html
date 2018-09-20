@@ -1,0 +1,72 @@
+<!Doctype html>
+<head>
+<title>BasicInfo</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="page-header">
+<div class="row">
+<img class="navbar-brand" src="logo.png" alt="logo" width="25%" height="25%">
+</div>
+</div>
+<div class="container">
+<h2>Basic Information</h2>
+<form action="ICO_Details.html">
+  <div class="form-group">
+    <label for="name">Name:</label>
+    <input type="text" class="form-control" id="name" required>
+  </div>
+  <div class="form-group">
+    <label for="email">Email-Id:</label>
+    <input type="email" class="form-control" id="email" required>
+  </div>
+	<div class="form-group">
+    <label for="Country">Country</label>
+    <select class="form-control" id="Country" required>
+	  <option selected>Select Your Country</option>
+      <option>India</option>
+      <option>America</option>
+      <option>China</option>
+      <option>Japan</option>
+      <option>Pakistan</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="register">Registered Company Name:</label>
+    <input type="text" class="form-control" id="register" required>
+  </div>
+  <div class="form-group">
+    <label for="year">Registration Year:</label>
+    <input type="number" class="form-control" id="year" min="1990" max="2018" required>
+  </div>
+ <div class="form-group">
+    <label for="supply">Total supply:</label>
+    <input type="text" class="form-control" id="supply" required>
+  </div>
+  <div class="form-group">
+    <label for="currency">Accepted Currencies:</label>
+    <input type="text" class="form-control" id="currency" required>
+  </div>
+  <div class="form-group">
+    <label for="contribution">Min contribution size:</label>
+    <input type="text" class="form-control" id="contribution" required>
+  </div>
+  <div class="form-group">
+    <label for="cont_curr">Contribution Currency</label>
+    <select class="form-control" id="cont_curr" required>
+	  <option>Select</option>
+      <option>#</option>
+      <option>#</option>
+      <option>#</option>
+      <option>#</option>
+      <option>#</option>
+    </select>
+  </div>
+  <center><button type="next" class="btn btn-success btn-lg">Next</button></center>
+</form>
+</div>
+</body>
+</html>
